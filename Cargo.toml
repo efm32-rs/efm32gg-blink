@@ -1,0 +1,13 @@
+[package]
+authors = ["Vladimir Petrigo <vladimir.petrigo@gmail.com>"]
+name = "efm32gg-blink"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m = ">=0.7"
+cortex-m-rt = ">=0.7"
+
+[dependencies.efm32gg-pac]
+version = "0.1.1"
+features = ["rt", "efm32gg990"]

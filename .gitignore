@@ -1,0 +1,8 @@
+# IDEA
+/.idea/
+# Rust output
+/target/
+
+# Firmware image output
+*.hex
+*.bin
