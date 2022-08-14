@@ -1,4 +1,4 @@
-name: PACs
+name: Blink
 
 on:
   push:
