@@ -20,6 +20,8 @@ jobs:
           toolchain: stable
           profile: minimal
           components: rustfmt
+      - name: Add rustc target for example
+        run: rustup target add thumbv7m-none-eabi
       - name: Build Crates
         run: |
           cargo build
