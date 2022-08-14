@@ -30,6 +30,7 @@ jobs:
 
   ci:
     if: ${{ success() }}
+    name: Finalize
     # all new jobs must be added to this list
     needs: [ build ]
     runs-on: ubuntu-latest

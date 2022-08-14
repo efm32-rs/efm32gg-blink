@@ -1,5 +1,7 @@
 # EFM32GG Blink Example
 
+[![Blink](https://github.com/efm32-rs/efm32gg-blink/actions/workflows/blink.yml/badge.svg?branch=master)](https://github.com/efm32-rs/efm32gg-blink/actions/workflows/blink.yml)
+
 This crate provides a demo on how to use EFM32 PACs for LED blinking.
 
 ![blinky](blink.gif)
