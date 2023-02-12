@@ -2,9 +2,9 @@
 #![no_std]
 
 use core::panic::PanicInfo;
+
 use cortex_m::peripheral::syst::SystClkSource;
 use cortex_m_rt::{entry, exception};
-
 use efm32gg_pac::efm32gg990::gpio;
 
 #[panic_handler]
