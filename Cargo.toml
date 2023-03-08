@@ -9,5 +9,5 @@ cortex-m = { version = ">=0.7.7", features = [ "critical-section-single-core" ] 
 cortex-m-rt = ">=0.7"
 
 [dependencies.efm32gg-pac]
-version = "0.1.2"
+version = "0.1.4"
 features = ["rt", "efm32gg990", "critical-section"]

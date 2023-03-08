@@ -67,9 +67,9 @@ dependencies = [
 
 [[package]]
 name = "efm32gg-pac"
-version = "0.1.2"
+version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "54de28f40a8dba81ce25a1c9126a803231210e12249f702e20a46dafc6e6901f"
+checksum = "5db74b0fd5bec15b759bd721efe3ea90901fc1daba13b5ff2809ff57e87bc7d7"
 dependencies = [
  "cortex-m",
  "cortex-m-rt",
